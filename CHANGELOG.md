@@ -2,6 +2,17 @@
 > - All significant changes to this project will be documented here.
 ---
 
+> [2.0.0]
+> 
+> - Changed extracted files categorization: separated into module files (`service.sh`, `module.prop`) and assets (`ADH.jpg`).
+> - Added `prepare_hosts` function to centralize hosts file preparation, copying, and overlay mount setup.
+> - Moved hosts file handling, permissions, and worker directory creation from main script to `prepare_hosts`.
+> - Removed explicit PATH modifications and sdcardfs filesystem check (integrated into `prepare_hosts` logic).
+> - Improved mount bind logic in `service.sh` to conditionally copy if bind fails, without fallback true.
+> - Changed overlay mount in `service.sh` to remove unconditional `|| true` for better error control.
+> - Removed mandatory dependency checks for `sha1sum`, `sha224sum`, `sha384sum`, `sha512sum`, `awk`, and `sed`.
+---
+
 > [1.5.0]
 >
 > - `customize.sh`: Introduced detailed `root_detect_magisk` function for identifying Magisk variants (Stable, Canary, Kitsune, Alpha) with precise version printing and frog icon.
