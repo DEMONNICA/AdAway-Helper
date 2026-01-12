@@ -1,18 +1,18 @@
-![Image](https://github.com/user-attachments/assets/5af17493-a863-472b-9d91-88a7054aac41)
+> ![Image](https://github.com/user-attachments/assets/7be2026a-d5c9-4881-a5e2-923564d9078c)
 
 > [!NOTE]
-> - Required module to use applications such as AdAway on KSU-Next and APatch or SUkiSU.
+> Required module to use applications such as AdAway on KSU-Next and APatch or SUkiSU and other variants.
 <hr/>
 
 > [!IMPORTANT]
 > Features ✨:
-> 1. Enables AdAway on KSU/APatch/SUkiSU with bind-mounted hosts. ✔️
+> 1. Enables AdAway on KSU/APatch/SUkiSU and other variants with bind-mounted hosts. ✔️
 <hr/>
 
 > [!TIP]
-> 1. Supports `KernelSU - NEXT` `APatch` dan `SukiSU`.
-> 2. Minimum Android `10 sdk 29`.
-> 3. For `Magisk` there is no need to use it.
+> 1. Supports `Magisk`, `APatch`, `SukiSU`, `KernelSU`, and `other variants`.
+> 2. Minimum Android `10 SDK 29`.
+> 3. For `Magisk` users, this module is not required.
 <hr/>
 
 > Download the module here 📦:                  
