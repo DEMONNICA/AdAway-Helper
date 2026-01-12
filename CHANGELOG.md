@@ -2,6 +2,13 @@
 > - All significant changes to this project will be documented here.
 ---
 
+> [2.5.0]
+> 
+> - Banner changes.
+> - Minor changes and improvements to mount handling.
+> - Improvements in the `customize.sh & verify.sh` sector for more complex handling.
+---
+
 > [2.0.0]
 > 
 > - Changed extracted files categorization: separated into module files (`service.sh`, `module.prop`) and assets (`ADH.jpg`).
