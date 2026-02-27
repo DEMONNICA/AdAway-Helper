@@ -1,7 +1,7 @@
 id=ADH
 name=AdAway Helper
-version=2.5.0
-versionCode=250
+version=3.0.0
+versionCode=300
 author=@illumi
 description=Required module to use applications such as AdAway on KSU-Next and APatch or SUkiSU and other variants.
 banner=https://raw.githubusercontent.com/DEMONNICA/AdAway-Helper/refs/heads/main/ADH.jpg
