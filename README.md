@@ -34,8 +34,3 @@
 > 5. Redistribution, modification, or repackaging of these works without explicit permission from the author is strictly prohibited.
 > 6. Rooted devices with custom ROM may behave differently. Proceed with extra caution.
 > 7. Any modification applied to the system is your decision. Think before you act.
-
-> Download 📦:
-> - [Download now AdAway Helper.](https://shrinkme.click/6yGaNvCl)
-> - [For Magisk Modules or other Plugins, please visit here.](https://t.me/Demoniica)
-----
