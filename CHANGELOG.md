@@ -2,10 +2,23 @@
 > - All significant changes to this project will be documented here.
 ---
 
+> [4.5.0]
+>
+> - Added `VortexSU` and `MamboSU` to KernelSU variant detection.
+> - Added `Kokoro Mask` to Magisk variant detection.
+> - Added `APATCH_VER_CODE` retrieval via `/data/adb/ap/version`.
+> - Added fallback for `APATCH_KERNEL_VER_CODE` from cached `.method` file.
+> - Changed `detect_root_all` detection order to APatch → KernelSU → Magisk.
+> - Changed APatch detection to use loop-based `for entry in` pattern — consistent with KernelSU and Magisk.
+> - Changed curl in APatch detection to use `--insecure` flag for KernelPatch version fetch.
+> - Changed `get_app_label` merged into `detect_adaway` — no longer a separate function.
+> - Changed `description` in `module.prop` and `README.md` to reflect actual module behavior — removed mention of overlay since it's no longer used.
+> - Removed `am start -n org.adaway/org.adaway.ui.MainActivity` from `service.sh` — not recommended to auto-open AdAway after boot.
+---
+
 > [4.0.0]
 >
-> - Added `detect_adaway` check at the start of `customize.sh` — aborts installation if AdAway (`org.adaway`) is not installed.
-> - Added `get_app_label` function in `customize.sh` to dynamically retrieve AdAway app name from APK via `strings`.
+> - Added `detect_adaway` check at the start of `customize.sh` — aborts installation if AdAway (`org.adaway`) is not installed, and retrieves AdAway app name from APK via `strings`.
 > - Added `post-fs-data.sh` for early boot bind mount of hosts file.
 > - Added boot wait (`sys.boot_completed`) in `service.sh` before refreshing AdAway.
 > - Added `restorecon` on `/system/etc/hosts` after bind mount in `post-fs-data.sh`.
@@ -46,7 +59,7 @@
 
 > [2.5.0]
 >
-> - Changed banner.
+> - Changed banner image in `README.md` and `module.prop`.
 > - Changed minor improvements to mount handling.
 > - Changed `customize.sh` and `verify.sh` for more complex handling.
 ---
