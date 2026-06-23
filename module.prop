@@ -1,7 +1,7 @@
 id=ADH
 name=AdAway Helper
-version=4.0.0
-versionCode=400
+version=4.5.0
+versionCode=450
 author=@illumi
-description=Enables AdAway and similar hosts-based ad blockers to work on KernelSU, SukiSU, APatch, and their variants by managing /system/etc/hosts via bind mount and overlay.
+description=Enables AdAway to write a custom hosts file to /system/etc/hosts on KernelSU, SukiSU, APatch, Magisk, and their variants.
 banner=https://raw.githubusercontent.com/DEMONNICA/AdAway-Helper/refs/heads/main/ADH.jpg
