@@ -2,18 +2,17 @@
 
 > [!NOTE]
 > ```
-> Enables AdAway and similar hosts-based ad blockers to work on KernelSU, KernelSU Next, SukiSU, APatch, and their variants by managing /system/etc/hosts via bind mount and overlay.
+> Enables AdAway to write a custom hosts file to /system/etc/hosts on KernelSU, SukiSU, APatch, Magisk, and their variants.
 > ```
 
 > [!IMPORTANT]
 > Features ✨:
-> 1. Manages `/system/etc/hosts` via bind mount and overlay.
-> 2. Copies system hosts file during installation for seamless integration.
-> 3. Applies correct SELinux context to hosts file automatically.
-> 4. Falls back to direct copy if bind mount is unavailable.
+> 1. Requires AdAway to be installed — aborts installation if not found.
+> 2. Mounts `/system/etc/hosts` via bind mount at early boot.
+> 3. Copies system hosts file during installation for seamless integration.
+> 4. Applies correct SELinux context to hosts file automatically.
 > 5. Auto-refreshes AdAway after hosts file is mounted.
 > 6. Sends system notification when hosts file is applied successfully.
-> 7. Compatible with AdAway and any hosts-based ad blocker.
 
 > [!TIP]
 > 1. Supports `Magisk` `KernelSU` `KernelSU Next` `APatch` `SukiSU` and their variants.
