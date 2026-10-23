@@ -1,7 +1,7 @@
 id=ADH
 name=AdAway Helper
-version=4.5.0
-versionCode=450
+version=5.0.0
+versionCode=500
 author=@illumi
-description=Enables AdAway to write a custom hosts file to /system/etc/hosts on KernelSU, SukiSU, APatch, Magisk, and their variants.
+description=Enables AdAway to write a custom hosts file to /system/etc/hosts on KernelSU, APatch, Magisk, and their variants.
 banner=https://raw.githubusercontent.com/DEMONNICA/AdAway-Helper/refs/heads/main/ADH.jpg
