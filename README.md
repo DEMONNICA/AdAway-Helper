@@ -7,10 +7,10 @@
 
 > [!IMPORTANT]
 > Features ✨:
-> 1. Only installs when AdAway is already on your device.
-> 2. Keeps your device's original hosts entries, so nothing is lost when the module takes over.
-> 3. Lets AdAway apply its blocklist through a systemless hosts file, so the system partition stays untouched.
-> 4. Makes sure the system can read the hosts file, so blocking works reliably after install.
+> 1. Installs only if AdAway is detected.
+> 2. Systemless hosts mount, original entries kept.
+> 3. AdAway can write its blocklist directly.
+> 4. Auto-refreshes AdAway after boot.
 
 > [!TIP]
 > 1. Supports `APatch` `KernelSU` `Magisk` and their forks.
