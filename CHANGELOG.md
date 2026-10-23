@@ -2,6 +2,18 @@
 > - All significant changes to this project will be documented here.
 ---
 
+> [5.0.0]
+>
+> - Added `module_author` check in `verify_module_id` — aborts if author is not `@illumi`.
+> - Added `Aster` (`me.yuki.aster`), `FolkSU` (`me.yuki.folksu`), and `FinaSU` (`me.yuki.fina`) to APatch variant detection.
+> - Added `BakaSU` detection for `com.resukisu.resukisu` — label is read from the APK via `strings`, falls back to `BakaSU`, and also added to the aapt spoofed detection list.
+> - Changed `device_info` RAM label logic to use nested `ram_label()` function, and SDK validation to check if value is numeric before comparing.
+> - Changed file extraction loop in `customize.sh` to compact single-line format.
+> - Changed fallback KernelSU spoofed detection — simplified `case` to only match `KernelSU Next` and `Wild KSU`, everything else falls back to `KernelSU Spoofed`.
+> - Changed devil names in `print_random_devil_message` — added `Baal`, removed `Lucius`, and sorted alphabetically.
+> - Removed `VortexSU`, `Kokoro Mask`, and `FolkLite` from root manager detection, and `ReSukiSU Spoofed` from `ksud` fallback.
+---
+
 > [4.5.0]
 >
 > - Added `VortexSU` and `MamboSU` to KernelSU variant detection.
